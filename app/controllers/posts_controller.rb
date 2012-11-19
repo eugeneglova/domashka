@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+
   # GET /posts
   # GET /posts.json
   def index
@@ -24,6 +25,7 @@ class PostsController < ApplicationController
   # GET /posts/new
   # GET /posts/new.json
   def new
+
     @post = Post.new
 
     respond_to do |format|
